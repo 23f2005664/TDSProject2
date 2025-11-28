@@ -15,7 +15,7 @@ import io
 import zipfile
 
 # --- CONFIGURATION ---
-AIPIPE_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjIwMDU2NjRAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.1ppmjBFeLixKKKoOfnPUAJuTyGKoub0nqfyizo4y2zU"
+AIPIPE_TOKEN = "apikey"
 AIPIPE_URL = "https://aipipe.org/openrouter/v1/chat/completions"
 
 logger = logging.getLogger(__name__)
