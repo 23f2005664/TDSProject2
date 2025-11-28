@@ -10,7 +10,6 @@ aiofiles
 python-multipart
 jinja2
 tabulate
-zipfile
 networkx
 numpy
 scipy
