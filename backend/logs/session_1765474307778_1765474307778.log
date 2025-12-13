@@ -1,0 +1,8 @@
+[2025-12-11T17:31:47.783Z] {"timestamp":"2025-12-11T17:31:47.778Z","type":"info","message":"Session log: D:\\Random\\TDSPROJ2NEW\\backend\\logs\\session_1765474307778_1765474307778.log","data":null}
+[2025-12-11T17:31:47.796Z] {"timestamp":"2025-12-11T17:31:47.789Z","type":"info","message":"Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2","data":null}
+[2025-12-11T17:31:48.260Z] {"timestamp":"2025-12-11T17:31:48.257Z","type":"question","message":"Quiz content extracted","data":{"textLength":603,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":0,"imageUrls":0}}
+[2025-12-11T17:31:48.261Z] {"timestamp":"2025-12-11T17:31:48.260Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T17:31:48.266Z] {"timestamp":"2025-12-11T17:31:48.264Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1067,"model":"google/gemini-2.0-flash-exp:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T17:31:54.857Z] {"timestamp":"2025-12-11T17:31:54.857Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T17:31:54.862Z] {"timestamp":"2025-12-11T17:31:54.858Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T17:32:07.467Z] {"timestamp":"2025-12-11T17:32:07.467Z","type":"info","message":"Quiz solving stopped","data":null}

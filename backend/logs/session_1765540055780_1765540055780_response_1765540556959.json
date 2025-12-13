@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-12T17:25:56+05:30",
+  "submitUrl": "https://tds-llm-analysis.s-anand.net/submit",
+  "status": 200,
+  "headers": {
+    "date": "Fri, 12 Dec 2025 11:55:56 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "vary": "accept-encoding",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=OYL4Lkp6tQBM8fhq0xUzscoGTMmM332DrNxBChi1zUJG9HEug%2FQmlxTla9oHpKhQI6mR%2BwZZ1B8Zb0e00%2BZiAtsoc8z84nzkjeJ5fqMcARLeeUQ1lnITG3xenao%3D\"}]}",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "server": "cloudflare",
+    "cf-ray": "9acd091ac9e799b3-MRS",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "data": {
+    "correct": false,
+    "reason": "Total line items to two decimals",
+    "url": null,
+    "delay": 30
+  }
+}

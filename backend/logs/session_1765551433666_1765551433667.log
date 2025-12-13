@@ -1,0 +1,41 @@
+[2025-12-12T14:57:13.736Z] {"timestamp":"2025-12-12T20:27:13+05:30","type":"info","message":"Session log: D:\\Random\\TDSPROJ2NEW\\backend\\logs\\session_1765551433666_1765551433667.log","data":null}
+[2025-12-12T14:57:13.744Z] {"timestamp":"2025-12-12T20:27:13+05:30","type":"info","message":"Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2","data":null}
+[2025-12-12T14:57:14.539Z] {"timestamp":"2025-12-12T20:27:14+05:30","type":"question","message":"Quiz content extracted","data":{"textLength":603,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":0,"imageUrls":0}}
+[2025-12-12T14:57:14.542Z] {"timestamp":"2025-12-12T20:27:14+05:30","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-12T14:57:14.554Z] {"timestamp":"2025-12-12T20:27:14+05:30","type":"llm","message":"Calling LLM...","data":{"promptLength":1232,"model":"google/gemini-2.0-flash-exp:free","hasImages":false,"previousReasons":0}}
+[2025-12-12T14:57:20.932Z] {"timestamp":"2025-12-12T20:27:20+05:30","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-12T14:57:20.939Z] {"timestamp":"2025-12-12T20:27:20+05:30","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-12T14:57:27.845Z] {"timestamp":"2025-12-12T20:27:27+05:30","type":"info","message":"Model changed to: kwaipilot/kat-coder-pro:free","data":null}
+[2025-12-12T14:57:28.047Z] {"timestamp":"2025-12-12T20:27:28+05:30","type":"info","message":"Attempt 2 (166s remaining)","data":null}
+[2025-12-12T14:57:28.051Z] {"timestamp":"2025-12-12T20:27:28+05:30","type":"llm","message":"Calling LLM...","data":{"promptLength":1232,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-12T14:57:29.747Z] {"timestamp":"2025-12-12T20:27:29+05:30","type":"llm","message":"LLM response received","data":{"contentPreview":"23f2005664@ds.study.iitm.ac.in","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-12T14:57:29.750Z] {"timestamp":"2025-12-12T20:27:29+05:30","type":"error","message":"Answer is null/undefined - both Python and LLM failed","data":null}
+[2025-12-12T14:57:29.752Z] {"timestamp":"2025-12-12T20:27:29+05:30","type":"info","message":"Attempt 3 (165s remaining)","data":null}
+[2025-12-12T14:57:29.754Z] {"timestamp":"2025-12-12T20:27:29+05:30","type":"llm","message":"Calling LLM...","data":{"promptLength":1232,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-12T14:57:33.809Z] {"timestamp":"2025-12-12T20:27:33+05:30","type":"llm","message":"LLM response received","data":{"contentPreview":"23f2005664@ds.study.iitm.ac.in","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-12T14:57:33.816Z] {"timestamp":"2025-12-12T20:27:33+05:30","type":"error","message":"Answer is null/undefined - both Python and LLM failed","data":null}
+[2025-12-12T14:57:33.819Z] {"timestamp":"2025-12-12T20:27:33+05:30","type":"info","message":"Attempt 4 (161s remaining)","data":null}
+[2025-12-12T14:57:33.822Z] {"timestamp":"2025-12-12T20:27:33+05:30","type":"llm","message":"Calling LLM...","data":{"promptLength":1232,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-12T14:57:35.549Z] {"timestamp":"2025-12-12T20:27:35+05:30","type":"llm","message":"LLM response received","data":{"contentPreview":"23f2005664@ds.study.iitm.ac.in","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-12T14:57:35.557Z] {"timestamp":"2025-12-12T20:27:35+05:30","type":"error","message":"Answer is null/undefined - both Python and LLM failed","data":null}
+[2025-12-12T14:57:35.560Z] {"timestamp":"2025-12-12T20:27:35+05:30","type":"info","message":"Attempt 5 (159s remaining)","data":null}
+[2025-12-12T14:57:35.562Z] {"timestamp":"2025-12-12T20:27:35+05:30","type":"llm","message":"Calling LLM...","data":{"promptLength":1232,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-12T14:57:36.960Z] {"timestamp":"2025-12-12T20:27:36+05:30","type":"llm","message":"LLM response received","data":{"contentPreview":"23f2005664@ds.study.iitm.ac.in","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-12T14:57:36.964Z] {"timestamp":"2025-12-12T20:27:36+05:30","type":"error","message":"Answer is null/undefined - both Python and LLM failed","data":null}
+[2025-12-12T14:57:36.967Z] {"timestamp":"2025-12-12T20:27:36+05:30","type":"info","message":"Attempt 6 (158s remaining)","data":null}
+[2025-12-12T14:57:36.973Z] {"timestamp":"2025-12-12T20:27:36+05:30","type":"llm","message":"Calling LLM...","data":{"promptLength":1232,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-12T14:57:38.357Z] {"timestamp":"2025-12-12T20:27:38+05:30","type":"llm","message":"LLM response received","data":{"contentPreview":"23f2005664@ds.study.iitm.ac.in","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-12T14:57:38.365Z] {"timestamp":"2025-12-12T20:27:38+05:30","type":"error","message":"Answer is null/undefined - both Python and LLM failed","data":null}
+[2025-12-12T14:57:38.371Z] {"timestamp":"2025-12-12T20:27:38+05:30","type":"info","message":"Attempt 7 (156s remaining)","data":null}
+[2025-12-12T14:57:38.378Z] {"timestamp":"2025-12-12T20:27:38+05:30","type":"llm","message":"Calling LLM...","data":{"promptLength":1232,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-12T14:57:39.791Z] {"timestamp":"2025-12-12T20:27:39+05:30","type":"llm","message":"LLM response received","data":{"contentPreview":"23f2005664@ds.study.iitm.ac.in","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-12T14:57:39.801Z] {"timestamp":"2025-12-12T20:27:39+05:30","type":"error","message":"Answer is null/undefined - both Python and LLM failed","data":null}
+[2025-12-12T14:57:39.809Z] {"timestamp":"2025-12-12T20:27:39+05:30","type":"info","message":"Attempt 8 (155s remaining)","data":null}
+[2025-12-12T14:57:39.828Z] {"timestamp":"2025-12-12T20:27:39+05:30","type":"llm","message":"Calling LLM...","data":{"promptLength":1232,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-12T14:57:42.417Z] {"timestamp":"2025-12-12T20:27:42+05:30","type":"llm","message":"LLM response received","data":{"contentPreview":"23f2005664@ds.study.iitm.ac.in","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-12T14:57:42.423Z] {"timestamp":"2025-12-12T20:27:42+05:30","type":"error","message":"Answer is null/undefined - both Python and LLM failed","data":null}
+[2025-12-12T14:57:42.432Z] {"timestamp":"2025-12-12T20:27:42+05:30","type":"info","message":"Attempt 9 (152s remaining)","data":null}
+[2025-12-12T14:57:42.434Z] {"timestamp":"2025-12-12T20:27:42+05:30","type":"llm","message":"Calling LLM...","data":{"promptLength":1232,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-12T14:57:43.236Z] {"timestamp":"2025-12-12T20:27:43+05:30","type":"info","message":"Quiz solving stopped","data":null}
+[2025-12-12T14:57:43.478Z] {"timestamp":"2025-12-12T20:27:43+05:30","type":"llm","message":"LLM response received","data":{"contentPreview":"23f2005664@ds.study.iitm.ac.in","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-12T14:57:43.483Z] {"timestamp":"2025-12-12T20:27:43+05:30","type":"error","message":"Answer is null/undefined - both Python and LLM failed","data":null}

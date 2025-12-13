@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-12T20:50:05+05:30",
+  "submitUrl": "https://tds-llm-analysis.s-anand.net/submit",
+  "status": 200,
+  "headers": {
+    "date": "Fri, 12 Dec 2025 15:20:04 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "vary": "accept-encoding",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=p3pRI6t%2FN30oIY234KLMX5pkN2TMnKry7eRcwYPU96EXPLBViQ1fsxsCITUvjUZQaxXjA8izW0gvkoQreBIGcNRnzSox56K7%2B%2BLgd15JEmA%2BjolPeO9sA7QlT5G9ohxifoTDJiWoSNQ%3D\"}]}",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "server": "cloudflare",
+    "cf-ray": "9ace342219e8762f-MRS",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "data": {
+    "correct": true,
+    "reason": "",
+    "url": "https://tds-llm-analysis.s-anand.net/project2-heatmap?email=23f2005664%40ds.study.iitm.ac.in&id=69477",
+    "delay": 15
+  }
+}

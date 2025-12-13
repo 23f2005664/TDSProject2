@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-12-12T20:31:36+05:30",
+  "url": "https://tds-llm-analysis.s-anand.net/project2/uv.json",
+  "filename": "uv.json",
+  "path": "D:\\Random\\TDSPROJ2NEW\\backend\\temp\\d4f78dac-ef33-435a-84ca-8ef979bfe319_uv.json",
+  "type": "json",
+  "size": 46,
+  "hasContent": true,
+  "hasBase64": false,
+  "contentPreview": "{\"status\":\"ok\",\"message\":\"add accept header\"}\n"
+}

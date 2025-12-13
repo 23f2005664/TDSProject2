@@ -1,0 +1,141 @@
+[2025-12-11T15:37:09.040Z] {"timestamp":"2025-12-11T15:37:09.039Z","type":"info","message":"📁 Session log: D:\\Random\\TDSPROJ2NEW\\backend\\logs\\session_1765467429039_1765467429039.log","data":null}
+[2025-12-11T15:37:09.041Z] {"timestamp":"2025-12-11T15:37:09.041Z","type":"info","message":"🔍 Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2","data":null}
+[2025-12-11T15:37:09.953Z] {"timestamp":"2025-12-11T15:37:09.952Z","type":"question","message":"📋 Quiz content extracted","data":{"textLength":603,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":0,"imageUrls":0}}
+[2025-12-11T15:37:09.956Z] {"timestamp":"2025-12-11T15:37:09.955Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T15:37:09.962Z] {"timestamp":"2025-12-11T15:37:09.961Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"google/gemini-2.0-flash-exp:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:37:18.455Z] {"timestamp":"2025-12-11T15:37:18.455Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:37:18.457Z] {"timestamp":"2025-12-11T15:37:18.456Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:37:24.343Z] {"timestamp":"2025-12-11T15:37:24.343Z","type":"info","message":"🔄 Model changed to: mistralai/devstral-2512:free","data":null}
+[2025-12-11T15:37:24.538Z] {"timestamp":"2025-12-11T15:37:24.537Z","type":"info","message":"Attempt 2 (165s remaining)","data":null}
+[2025-12-11T15:37:24.539Z] {"timestamp":"2025-12-11T15:37:24.539Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"mistralai/devstral-2512:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:37:24.545Z] {"timestamp":"2025-12-11T15:37:24.544Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:37:24.546Z] {"timestamp":"2025-12-11T15:37:24.546Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:37:28.610Z] {"timestamp":"2025-12-11T15:37:28.609Z","type":"info","message":"🔄 Model changed to: nvidia/nemotron-nano-9b-v2:free","data":null}
+[2025-12-11T15:37:29.608Z] {"timestamp":"2025-12-11T15:37:29.606Z","type":"info","message":"Attempt 3 (160s remaining)","data":null}
+[2025-12-11T15:37:29.617Z] {"timestamp":"2025-12-11T15:37:29.609Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"nvidia/nemotron-nano-9b-v2:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:37:30.063Z] {"timestamp":"2025-12-11T15:37:30.058Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:37:30.068Z] {"timestamp":"2025-12-11T15:37:30.064Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:37:33.331Z] {"timestamp":"2025-12-11T15:37:33.331Z","type":"info","message":"🔄 Model changed to: qwen/qwen3-235b-a22b:free","data":null}
+[2025-12-11T15:37:34.103Z] {"timestamp":"2025-12-11T15:37:34.098Z","type":"info","message":"Attempt 4 (156s remaining)","data":null}
+[2025-12-11T15:37:34.107Z] {"timestamp":"2025-12-11T15:37:34.105Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"qwen/qwen3-235b-a22b:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:37:34.112Z] {"timestamp":"2025-12-11T15:37:34.111Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:37:34.112Z] {"timestamp":"2025-12-11T15:37:34.112Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:37:36.427Z] {"timestamp":"2025-12-11T15:37:36.426Z","type":"info","message":"🔄 Model changed to: google/gemini-2.0-flash-exp:free","data":null}
+[2025-12-11T15:37:37.137Z] {"timestamp":"2025-12-11T15:37:37.136Z","type":"info","message":"Attempt 5 (153s remaining)","data":null}
+[2025-12-11T15:37:37.144Z] {"timestamp":"2025-12-11T15:37:37.142Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"google/gemini-2.0-flash-exp:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:37:37.155Z] {"timestamp":"2025-12-11T15:37:37.154Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:37:37.157Z] {"timestamp":"2025-12-11T15:37:37.156Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:37:39.107Z] {"timestamp":"2025-12-11T15:37:39.107Z","type":"info","message":"🔄 Model changed to: meta-llama/llama-3.3-70b-instruct:free","data":null}
+[2025-12-11T15:37:39.191Z] {"timestamp":"2025-12-11T15:37:39.191Z","type":"info","message":"Attempt 6 (151s remaining)","data":null}
+[2025-12-11T15:37:39.192Z] {"timestamp":"2025-12-11T15:37:39.192Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"meta-llama/llama-3.3-70b-instruct:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:37:39.195Z] {"timestamp":"2025-12-11T15:37:39.195Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:37:39.196Z] {"timestamp":"2025-12-11T15:37:39.195Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:37:41.434Z] {"timestamp":"2025-12-11T15:37:41.434Z","type":"info","message":"🔄 Model changed to: openai/gpt-oss-120b:free","data":null}
+[2025-12-11T15:37:42.219Z] {"timestamp":"2025-12-11T15:37:42.218Z","type":"info","message":"Attempt 7 (148s remaining)","data":null}
+[2025-12-11T15:37:42.223Z] {"timestamp":"2025-12-11T15:37:42.222Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"openai/gpt-oss-120b:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:37:42.226Z] {"timestamp":"2025-12-11T15:37:42.225Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:37:42.227Z] {"timestamp":"2025-12-11T15:37:42.226Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:37:44.075Z] {"timestamp":"2025-12-11T15:37:44.075Z","type":"info","message":"🔄 Model changed to: openai/gpt-oss-20b:free","data":null}
+[2025-12-11T15:37:44.246Z] {"timestamp":"2025-12-11T15:37:44.246Z","type":"info","message":"Attempt 8 (146s remaining)","data":null}
+[2025-12-11T15:37:44.248Z] {"timestamp":"2025-12-11T15:37:44.247Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"openai/gpt-oss-20b:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:37:44.250Z] {"timestamp":"2025-12-11T15:37:44.250Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:37:44.251Z] {"timestamp":"2025-12-11T15:37:44.251Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:37:46.890Z] {"timestamp":"2025-12-11T15:37:46.890Z","type":"info","message":"🔄 Model changed to: qwen/qwen3-coder:free","data":null}
+[2025-12-11T15:37:47.288Z] {"timestamp":"2025-12-11T15:37:47.287Z","type":"info","message":"Attempt 9 (143s remaining)","data":null}
+[2025-12-11T15:37:47.290Z] {"timestamp":"2025-12-11T15:37:47.289Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"qwen/qwen3-coder:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:37:48.109Z] {"timestamp":"2025-12-11T15:37:48.108Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:37:48.110Z] {"timestamp":"2025-12-11T15:37:48.109Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:37:50.549Z] {"timestamp":"2025-12-11T15:37:50.549Z","type":"info","message":"🔄 Model changed to: mistralai/mistral-7b-instruct:free","data":null}
+[2025-12-11T15:37:51.127Z] {"timestamp":"2025-12-11T15:37:51.127Z","type":"info","message":"Attempt 10 (139s remaining)","data":null}
+[2025-12-11T15:37:51.131Z] {"timestamp":"2025-12-11T15:37:51.130Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"mistralai/mistral-7b-instruct:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:37:51.856Z] {"timestamp":"2025-12-11T15:37:51.856Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:37:51.858Z] {"timestamp":"2025-12-11T15:37:51.857Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:37:55.394Z] {"timestamp":"2025-12-11T15:37:55.394Z","type":"info","message":"🔄 Model changed to: mistralai/devstral-2512:free","data":null}
+[2025-12-11T15:37:55.922Z] {"timestamp":"2025-12-11T15:37:55.922Z","type":"info","message":"Attempt 11 (134s remaining)","data":null}
+[2025-12-11T15:37:55.925Z] {"timestamp":"2025-12-11T15:37:55.923Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"mistralai/devstral-2512:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:37:55.927Z] {"timestamp":"2025-12-11T15:37:55.926Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:37:55.928Z] {"timestamp":"2025-12-11T15:37:55.927Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:38:00.285Z] {"timestamp":"2025-12-11T15:38:00.284Z","type":"info","message":"🔄 Model changed to: google/gemma-3-27b-it:free","data":null}
+[2025-12-11T15:38:01.004Z] {"timestamp":"2025-12-11T15:38:01.004Z","type":"info","message":"Attempt 12 (129s remaining)","data":null}
+[2025-12-11T15:38:01.007Z] {"timestamp":"2025-12-11T15:38:01.005Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"google/gemma-3-27b-it:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:38:01.012Z] {"timestamp":"2025-12-11T15:38:01.012Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:38:01.013Z] {"timestamp":"2025-12-11T15:38:01.013Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:38:03.923Z] {"timestamp":"2025-12-11T15:38:03.923Z","type":"info","message":"🔄 Model changed to: nvidia/nemotron-nano-12b-v2-vl:free","data":null}
+[2025-12-11T15:38:04.031Z] {"timestamp":"2025-12-11T15:38:04.030Z","type":"info","message":"Attempt 13 (126s remaining)","data":null}
+[2025-12-11T15:38:04.033Z] {"timestamp":"2025-12-11T15:38:04.032Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"nvidia/nemotron-nano-12b-v2-vl:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:39:23.326Z] {"timestamp":"2025-12-11T15:39:23.325Z","type":"llm","message":"LLM response received","data":{"contentPreview":"{\"email\":\"23f2005664@ds.study.iitm.ac.in\", \"answer\": 42}\n","model":"nvidia/nemotron-nano-12b-v2-vl:free"}}
+[2025-12-11T15:39:23.327Z] {"timestamp":"2025-12-11T15:39:23.327Z","type":"answer","message":"Answer: \"{\\\"email\\\":\\\"23f2005664@ds.study.iitm.ac.in\\\", \\\"answer\\\": 42}\"","data":null}
+[2025-12-11T15:39:23.328Z] {"timestamp":"2025-12-11T15:39:23.328Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T15:39:24.243Z] {"timestamp":"2025-12-11T15:39:24.238Z","type":"response","message":"Response received","data":{"correct":true,"reason":"","url":"https://tds-llm-analysis.s-anand.net/project2-uv?email=23f2005664%40ds.study.iitm.ac.in&id=63028","delay":null}}
+[2025-12-11T15:39:24.250Z] {"timestamp":"2025-12-11T15:39:24.250Z","type":"success","message":"Answer was correct!","data":null}
+[2025-12-11T15:39:24.251Z] {"timestamp":"2025-12-11T15:39:24.250Z","type":"info","message":"Next quiz: https://tds-llm-analysis.s-anand.net/project2-uv?email=23f2005664%40ds.study.iitm.ac.in&id=63028","data":null}
+[2025-12-11T15:39:25.259Z] {"timestamp":"2025-12-11T15:39:25.258Z","type":"info","message":"🔍 Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2-uv?email=23f2005664%40ds.study.iitm.ac.in&id=63028","data":null}
+[2025-12-11T15:39:25.440Z] {"timestamp":"2025-12-11T15:39:25.440Z","type":"question","message":"📋 Quiz content extracted","data":{"textLength":372,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":1,"imageUrls":0}}
+[2025-12-11T15:39:25.441Z] {"timestamp":"2025-12-11T15:39:25.441Z","type":"info","message":"📥 Processing: https://tds-llm-analysis.s-anand.net/project2/uv.json","data":null}
+[2025-12-11T15:39:25.632Z] {"timestamp":"2025-12-11T15:39:25.631Z","type":"file","message":"✅ Processed: uv.json","data":{"type":"json","hasContent":true}}
+[2025-12-11T15:39:25.633Z] {"timestamp":"2025-12-11T15:39:25.633Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T15:39:25.634Z] {"timestamp":"2025-12-11T15:39:25.633Z","type":"llm","message":"Calling LLM...","data":{"promptLength":946,"model":"nvidia/nemotron-nano-12b-v2-vl:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:39:58.268Z] {"timestamp":"2025-12-11T15:39:58.267Z","type":"llm","message":"LLM response received","data":{"contentPreview":"uv http get -H \"Accept: application/json\" /project2/uv.json?email=23f2005664@ds.study.iitm.ac.in\n","model":"nvidia/nemotron-nano-12b-v2-vl:free"}}
+[2025-12-11T15:39:58.270Z] {"timestamp":"2025-12-11T15:39:58.269Z","type":"answer","message":"Answer: \"uv http get -H \\\"Accept: application/json\\\" /project2/uv.json?email=23f2005664@ds.study.iitm.ac.in\"","data":null}
+[2025-12-11T15:39:58.271Z] {"timestamp":"2025-12-11T15:39:58.271Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T15:39:59.055Z] {"timestamp":"2025-12-11T15:39:59.055Z","type":"response","message":"Response received","data":{"correct":false,"reason":"Submit the command string: uv http get https://tds-llm-analysis.s-anand.net/project2/uv.json?email=<your email> -H \"Accept: application/json\"","url":"https://tds-llm-analysis.s-anand.net/project2-git?email=23f2005664%40ds.study.iitm.ac.in&id=63035","delay":34}}
+[2025-12-11T15:39:59.056Z] {"timestamp":"2025-12-11T15:39:59.056Z","type":"error","message":"Wrong answer: Submit the command string: uv http get https://tds-llm-analysis.s-anand.net/project2/uv.json?email=<your email> -H \"Accept: application/json\"","data":null}
+[2025-12-11T15:40:01.070Z] {"timestamp":"2025-12-11T15:40:01.069Z","type":"info","message":"Attempt 2 (145s remaining)","data":null}
+[2025-12-11T15:40:01.075Z] {"timestamp":"2025-12-11T15:40:01.071Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1237,"model":"nvidia/nemotron-nano-12b-v2-vl:free","hasImages":false,"previousReasons":1}}
+[2025-12-11T15:40:15.923Z] {"timestamp":"2025-12-11T15:40:15.921Z","type":"llm","message":"LLM response received","data":{"contentPreview":"uv http get https://tds-llm-analysis.s-anand.net/project2/uv.json?email=23f2005664@ds.study.iitm.ac.in -H \"Accept: application/json\"\n","model":"nvidia/nemotron-nano-12b-v2-vl:free"}}
+[2025-12-11T15:40:15.933Z] {"timestamp":"2025-12-11T15:40:15.933Z","type":"answer","message":"Answer: \"uv http get https://tds-llm-analysis.s-anand.net/project2/uv.json?email=23f2005664@ds.study.iitm.ac.in -H \\\"Accept: application/json\"","data":null}
+[2025-12-11T15:40:15.935Z] {"timestamp":"2025-12-11T15:40:15.934Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T15:40:16.635Z] {"timestamp":"2025-12-11T15:40:16.634Z","type":"response","message":"Response received","data":{"correct":true,"reason":"","url":"https://tds-llm-analysis.s-anand.net/project2-git?email=23f2005664%40ds.study.iitm.ac.in&id=63037","delay":52}}
+[2025-12-11T15:40:16.636Z] {"timestamp":"2025-12-11T15:40:16.635Z","type":"success","message":"Answer was correct!","data":null}
+[2025-12-11T15:40:16.636Z] {"timestamp":"2025-12-11T15:40:16.636Z","type":"info","message":"Next quiz: https://tds-llm-analysis.s-anand.net/project2-git?email=23f2005664%40ds.study.iitm.ac.in&id=63037","data":null}
+[2025-12-11T15:40:17.653Z] {"timestamp":"2025-12-11T15:40:17.653Z","type":"info","message":"🔍 Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2-git?email=23f2005664%40ds.study.iitm.ac.in&id=63037","data":null}
+[2025-12-11T15:40:17.831Z] {"timestamp":"2025-12-11T15:40:17.831Z","type":"question","message":"📋 Quiz content extracted","data":{"textLength":325,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":0,"imageUrls":0}}
+[2025-12-11T15:40:17.832Z] {"timestamp":"2025-12-11T15:40:17.832Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T15:40:17.833Z] {"timestamp":"2025-12-11T15:40:17.832Z","type":"llm","message":"Calling LLM...","data":{"promptLength":803,"model":"nvidia/nemotron-nano-12b-v2-vl:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:40:25.172Z] {"timestamp":"2025-12-11T15:40:25.171Z","type":"llm","message":"LLM response received","data":{"contentPreview":"git add env.sample\ngit commit -m \"chore: keep env sample\"","model":"nvidia/nemotron-nano-12b-v2-vl:free"}}
+[2025-12-11T15:40:25.173Z] {"timestamp":"2025-12-11T15:40:25.172Z","type":"answer","message":"Answer: \"git add env.sample\\ngit commit -m \\\"chore: keep env sample\"","data":null}
+[2025-12-11T15:40:25.174Z] {"timestamp":"2025-12-11T15:40:25.174Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T15:40:25.288Z] {"timestamp":"2025-12-11T15:40:25.288Z","type":"info","message":"⏸️ Quiz solving paused - waiting for manual input","data":null}
+[2025-12-11T15:40:25.906Z] {"timestamp":"2025-12-11T15:40:25.905Z","type":"response","message":"Response received","data":{"correct":true,"reason":"","url":"https://tds-llm-analysis.s-anand.net/project2-md?email=23f2005664%40ds.study.iitm.ac.in&id=63039","delay":9}}
+[2025-12-11T15:40:25.907Z] {"timestamp":"2025-12-11T15:40:25.907Z","type":"success","message":"Answer was correct!","data":null}
+[2025-12-11T15:40:25.908Z] {"timestamp":"2025-12-11T15:40:25.908Z","type":"info","message":"Next quiz: https://tds-llm-analysis.s-anand.net/project2-md?email=23f2005664%40ds.study.iitm.ac.in&id=63039","data":null}
+[2025-12-11T15:40:26.916Z] {"timestamp":"2025-12-11T15:40:26.915Z","type":"info","message":"🔍 Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2-md?email=23f2005664%40ds.study.iitm.ac.in&id=63039","data":null}
+[2025-12-11T15:40:27.098Z] {"timestamp":"2025-12-11T15:40:27.096Z","type":"question","message":"📋 Quiz content extracted","data":{"textLength":304,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":0,"imageUrls":0}}
+[2025-12-11T15:40:27.099Z] {"timestamp":"2025-12-11T15:40:27.099Z","type":"info","message":"⏳ Waiting for manual answer...","data":null}
+[2025-12-11T15:41:03.476Z] {"timestamp":"2025-12-11T15:41:03.476Z","type":"info","message":"⏸️ Quiz solving paused - waiting for manual input","data":null}
+[2025-12-11T15:41:09.174Z] {"timestamp":"2025-12-11T15:41:09.174Z","type":"info","message":"▶️ Quiz solving resumed","data":null}
+[2025-12-11T15:41:09.176Z] {"timestamp":"2025-12-11T15:41:09.175Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T15:41:09.178Z] {"timestamp":"2025-12-11T15:41:09.177Z","type":"llm","message":"Calling LLM...","data":{"promptLength":782,"model":"nvidia/nemotron-nano-12b-v2-vl:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:41:15.046Z] {"timestamp":"2025-12-11T15:41:15.045Z","type":"llm","message":"LLM response received","data":{"contentPreview":"/project2/data-preparation.md","model":"nvidia/nemotron-nano-12b-v2-vl:free"}}
+[2025-12-11T15:41:15.049Z] {"timestamp":"2025-12-11T15:41:15.047Z","type":"answer","message":"Answer: \"/project2/data-preparation.md\"","data":null}
+[2025-12-11T15:41:15.051Z] {"timestamp":"2025-12-11T15:41:15.051Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T15:41:15.876Z] {"timestamp":"2025-12-11T15:41:15.875Z","type":"response","message":"Response received","data":{"correct":true,"reason":"","url":"https://tds-llm-analysis.s-anand.net/project2-audio-passphrase?email=23f2005664%40ds.study.iitm.ac.in&id=63045","delay":49}}
+[2025-12-11T15:41:15.881Z] {"timestamp":"2025-12-11T15:41:15.877Z","type":"success","message":"Answer was correct!","data":null}
+[2025-12-11T15:41:15.884Z] {"timestamp":"2025-12-11T15:41:15.881Z","type":"info","message":"Next quiz: https://tds-llm-analysis.s-anand.net/project2-audio-passphrase?email=23f2005664%40ds.study.iitm.ac.in&id=63045","data":null}
+[2025-12-11T15:41:16.892Z] {"timestamp":"2025-12-11T15:41:16.887Z","type":"info","message":"🔍 Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2-audio-passphrase?email=23f2005664%40ds.study.iitm.ac.in&id=63045","data":null}
+[2025-12-11T15:41:17.074Z] {"timestamp":"2025-12-11T15:41:17.073Z","type":"question","message":"📋 Quiz content extracted","data":{"textLength":324,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":1,"imageUrls":0}}
+[2025-12-11T15:41:17.075Z] {"timestamp":"2025-12-11T15:41:17.075Z","type":"info","message":"📥 Processing: https://tds-llm-analysis.s-anand.net/project2/audio-passphrase.opus","data":null}
+[2025-12-11T15:41:40.192Z] {"timestamp":"2025-12-11T15:41:40.191Z","type":"file","message":"✅ Processed: audio-passphrase.opus","data":{"type":"audio","hasContent":false}}
+[2025-12-11T15:41:40.193Z] {"timestamp":"2025-12-11T15:41:40.193Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T15:41:40.194Z] {"timestamp":"2025-12-11T15:41:40.193Z","type":"llm","message":"Calling LLM...","data":{"promptLength":827,"model":"nvidia/nemotron-nano-12b-v2-vl:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:42:16.631Z] {"timestamp":"2025-12-11T15:42:16.631Z","type":"llm","message":"LLM response received","data":{"contentPreview":"audio passphrase 000\n","model":"nvidia/nemotron-nano-12b-v2-vl:free"}}
+[2025-12-11T15:42:16.638Z] {"timestamp":"2025-12-11T15:42:16.632Z","type":"answer","message":"Answer: \"audio passphrase 000\"","data":null}
+[2025-12-11T15:42:16.639Z] {"timestamp":"2025-12-11T15:42:16.638Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T15:42:17.372Z] {"timestamp":"2025-12-11T15:42:17.372Z","type":"response","message":"Response received","data":{"correct":false,"reason":"Transcribe the spoken phrase (code phrase + digits)","url":"https://tds-llm-analysis.s-anand.net/project2-heatmap?email=23f2005664%40ds.study.iitm.ac.in&id=63054","delay":61}}
+[2025-12-11T15:42:17.373Z] {"timestamp":"2025-12-11T15:42:17.373Z","type":"error","message":"Wrong answer: Transcribe the spoken phrase (code phrase + digits)","data":null}
+[2025-12-11T15:42:19.395Z] {"timestamp":"2025-12-11T15:42:19.395Z","type":"info","message":"Attempt 2 (141s remaining)","data":null}
+[2025-12-11T15:42:19.400Z] {"timestamp":"2025-12-11T15:42:19.399Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1028,"model":"nvidia/nemotron-nano-12b-v2-vl:free","hasImages":false,"previousReasons":1}}
+[2025-12-11T15:42:57.416Z] {"timestamp":"2025-12-11T15:42:57.415Z","type":"llm","message":"LLM response received","data":{"contentPreview":"audio passphrase 664","model":"nvidia/nemotron-nano-12b-v2-vl:free"}}
+[2025-12-11T15:42:57.417Z] {"timestamp":"2025-12-11T15:42:57.416Z","type":"answer","message":"Answer: \"audio passphrase 664\"","data":null}
+[2025-12-11T15:42:57.417Z] {"timestamp":"2025-12-11T15:42:57.417Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T15:42:58.194Z] {"timestamp":"2025-12-11T15:42:58.193Z","type":"response","message":"Response received","data":{"correct":false,"reason":"Transcribe the spoken phrase (code phrase + digits)","url":"https://tds-llm-analysis.s-anand.net/project2-heatmap?email=23f2005664%40ds.study.iitm.ac.in&id=63059","delay":102}}
+[2025-12-11T15:42:58.196Z] {"timestamp":"2025-12-11T15:42:58.195Z","type":"error","message":"Wrong answer: Transcribe the spoken phrase (code phrase + digits)","data":null}
+[2025-12-11T15:43:00.190Z] {"timestamp":"2025-12-11T15:43:00.189Z","type":"info","message":"Attempt 3 (100s remaining)","data":null}
+[2025-12-11T15:43:00.198Z] {"timestamp":"2025-12-11T15:43:00.197Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1028,"model":"nvidia/nemotron-nano-12b-v2-vl:free","hasImages":false,"previousReasons":1}}
+[2025-12-11T15:43:45.664Z] {"timestamp":"2025-12-11T15:43:45.663Z","type":"llm","message":"LLM response received","data":{"contentPreview":"664\n","model":"nvidia/nemotron-nano-12b-v2-vl:free"}}
+[2025-12-11T15:43:45.664Z] {"timestamp":"2025-12-11T15:43:45.664Z","type":"answer","message":"Answer: \"664\"","data":null}
+[2025-12-11T15:43:45.665Z] {"timestamp":"2025-12-11T15:43:45.665Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T15:43:46.452Z] {"timestamp":"2025-12-11T15:43:46.452Z","type":"response","message":"Response received","data":{"correct":false,"reason":"Transcribe the spoken phrase (code phrase + digits)","url":"https://tds-llm-analysis.s-anand.net/project2-heatmap?email=23f2005664%40ds.study.iitm.ac.in&id=63062","delay":150}}
+[2025-12-11T15:43:46.453Z] {"timestamp":"2025-12-11T15:43:46.453Z","type":"error","message":"Wrong answer: Transcribe the spoken phrase (code phrase + digits)","data":null}
+[2025-12-11T15:43:48.472Z] {"timestamp":"2025-12-11T15:43:48.471Z","type":"info","message":"Attempt 4 (52s remaining)","data":null}
+[2025-12-11T15:43:48.475Z] {"timestamp":"2025-12-11T15:43:48.475Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1028,"model":"nvidia/nemotron-nano-12b-v2-vl:free","hasImages":false,"previousReasons":1}}

@@ -1,0 +1,17 @@
+[2025-12-11T15:15:28.103Z] {"timestamp":"2025-12-11T15:15:28.103Z","type":"info","message":"📁 Session log: D:\\Random\\TDSPROJ2NEW\\backend\\logs\\session_1765466128103_1765466128103.log","data":null}
+[2025-12-11T15:15:28.104Z] {"timestamp":"2025-12-11T15:15:28.104Z","type":"info","message":"🔍 Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2","data":null}
+[2025-12-11T15:15:28.295Z] {"timestamp":"2025-12-11T15:15:28.295Z","type":"question","message":"📋 Quiz content extracted","data":{"textLength":603,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":0,"imageUrls":0}}
+[2025-12-11T15:15:28.297Z] {"timestamp":"2025-12-11T15:15:28.296Z","type":"info","message":"🔄 Attempt 1 (180s remaining)","data":null}
+[2025-12-11T15:15:28.305Z] {"timestamp":"2025-12-11T15:15:28.298Z","type":"llm","message":"🤖 Calling LLM...","data":{"promptLength":1081,"model":"google/gemini-2.0-flash-exp:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:15:28.309Z] {"timestamp":"2025-12-11T15:15:28.308Z","type":"error","message":"❌ LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:15:28.310Z] {"timestamp":"2025-12-11T15:15:28.309Z","type":"error","message":"🚫 All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:15:32.647Z] {"timestamp":"2025-12-11T15:15:32.647Z","type":"info","message":"🔄 Model changed to: moonshotai/kimi-k2:free","data":null}
+[2025-12-11T15:15:33.363Z] {"timestamp":"2025-12-11T15:15:33.361Z","type":"info","message":"🔄 Attempt 2 (175s remaining)","data":null}
+[2025-12-11T15:15:33.365Z] {"timestamp":"2025-12-11T15:15:33.364Z","type":"llm","message":"🤖 Calling LLM...","data":{"promptLength":1081,"model":"moonshotai/kimi-k2:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:15:34.190Z] {"timestamp":"2025-12-11T15:15:34.190Z","type":"error","message":"❌ LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:15:34.194Z] {"timestamp":"2025-12-11T15:15:34.192Z","type":"error","message":"🚫 All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T15:15:38.133Z] {"timestamp":"2025-12-11T15:15:38.133Z","type":"info","message":"🔄 Model changed to: mistralai/mistral-7b-instruct:free","data":null}
+[2025-12-11T15:15:38.203Z] {"timestamp":"2025-12-11T15:15:38.201Z","type":"info","message":"🔄 Attempt 3 (170s remaining)","data":null}
+[2025-12-11T15:15:38.204Z] {"timestamp":"2025-12-11T15:15:38.204Z","type":"llm","message":"🤖 Calling LLM...","data":{"promptLength":1081,"model":"mistralai/mistral-7b-instruct:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T15:15:38.512Z] {"timestamp":"2025-12-11T15:15:38.512Z","type":"error","message":"❌ LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T15:15:38.513Z] {"timestamp":"2025-12-11T15:15:38.512Z","type":"error","message":"🚫 All models are rate limited. Please select a model manually.","data":null}

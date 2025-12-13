@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-12T18:56:11+05:30",
+  "submitUrl": "https://tds-llm-analysis.s-anand.net/submit",
+  "quizUrl": "https://tds-llm-analysis.s-anand.net/project2-heatmap?email=23f2005664%40ds.study.iitm.ac.in&id=67341",
+  "payload": {
+    "email": "23f2005664@ds.study.iitm.ac.in",
+    "secret": "123",
+    "url": "https://tds-llm-analysis.s-anand.net/project2-heatmap?email=23f2005664%40ds.study.iitm.ac.in&id=67341",
+    "answer": "#b45a1e"
+  },
+  "answer": "#b45a1e"
+}

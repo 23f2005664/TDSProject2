@@ -1,0 +1,6 @@
+[2025-12-11T17:36:58.280Z] {"timestamp":"2025-12-11T17:36:58.280Z","type":"info","message":"Session log: D:\\Random\\TDSPROJ2NEW\\backend\\logs\\session_1765474618279_1765474618279.log","data":null}
+[2025-12-11T17:36:58.281Z] {"timestamp":"2025-12-11T17:36:58.281Z","type":"info","message":"Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2","data":null}
+[2025-12-11T17:36:58.735Z] {"timestamp":"2025-12-11T17:36:58.734Z","type":"question","message":"Quiz content extracted","data":{"textLength":603,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":0,"imageUrls":0}}
+[2025-12-11T17:36:58.740Z] {"timestamp":"2025-12-11T17:36:58.736Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T17:36:58.745Z] {"timestamp":"2025-12-11T17:36:58.743Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1067,"model":"google/gemini-2.0-flash-exp:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T17:37:01.424Z] {"timestamp":"2025-12-11T17:37:01.423Z","type":"info","message":"Quiz solving stopped","data":null}

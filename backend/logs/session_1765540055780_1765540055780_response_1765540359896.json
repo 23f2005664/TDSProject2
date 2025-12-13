@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-12T17:22:39+05:30",
+  "submitUrl": "https://tds-llm-analysis.s-anand.net/submit",
+  "status": 200,
+  "headers": {
+    "date": "Fri, 12 Dec 2025 11:52:39 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "vary": "accept-encoding",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=fXZH8Wf%2FcrSWlEmRA5j3bX8hch59wm9UHeabjmSBA6Lsy9UWgjB5qjFeqRHTYncCgcyJS3Jsu%2FiXYGT1NX47F5cAzr2X8BUACHf3%2B0llg51%2BSq1GH72mt%2BqDq3Y%3D\"}]}",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "server": "cloudflare",
+    "cf-ray": "9acd044b5f7999b3-MRS",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "data": {
+    "correct": false,
+    "reason": "Sum download bytes and add the email-length mod 5 offset",
+    "url": "https://tds-llm-analysis.s-anand.net/project2-invoice?email=23f2005664%40ds.study.iitm.ac.in&id=66400",
+    "delay": 46
+  }
+}

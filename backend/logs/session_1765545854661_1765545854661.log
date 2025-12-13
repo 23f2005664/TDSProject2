@@ -1,0 +1,15 @@
+[2025-12-12T13:24:14.725Z] {"timestamp":"2025-12-12T18:54:14+05:30","type":"info","message":"Session log: D:\\Random\\TDSPROJ2NEW\\backend\\logs\\session_1765545854661_1765545854661.log","data":null}
+[2025-12-12T13:24:14.729Z] {"timestamp":"2025-12-12T18:54:14+05:30","type":"info","message":"Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2","data":null}
+[2025-12-12T13:24:15.219Z] {"timestamp":"2025-12-12T18:54:15+05:30","type":"question","message":"Quiz content extracted","data":{"textLength":603,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":0,"imageUrls":0}}
+[2025-12-12T13:24:15.245Z] {"timestamp":"2025-12-12T18:54:15+05:30","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-12T13:24:15.273Z] {"timestamp":"2025-12-12T18:54:15+05:30","type":"llm","message":"Calling LLM...","data":{"promptLength":1204,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-12T13:24:15.544Z] {"timestamp":"2025-12-12T18:54:15+05:30","type":"info","message":"Quiz solving stopped","data":null}
+[2025-12-12T13:24:17.408Z] {"timestamp":"2025-12-12T18:54:17+05:30","type":"llm","message":"LLM response received","data":{"contentPreview":"23f2005664@ds.study.iitm.ac.in","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-12T13:24:17.429Z] {"timestamp":"2025-12-12T18:54:17+05:30","type":"answer","message":"Answer: \"23f2005664@ds.study.iitm.ac.in\"","data":null}
+[2025-12-12T13:24:17.442Z] {"timestamp":"2025-12-12T18:54:17+05:30","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-12T13:24:17.495Z] {"timestamp":"2025-12-12T18:54:17+05:30","type":"debug","message":"Request saved: D:\\Random\\TDSPROJ2NEW\\backend\\logs\\1765545854658_session_1765545854658_request_1765545857442.json","data":null}
+[2025-12-12T13:24:18.020Z] {"timestamp":"2025-12-12T18:54:18+05:30","type":"debug","message":"Response saved: D:\\Random\\TDSPROJ2NEW\\backend\\logs\\1765545854658_session_1765545854658_response_1765545858013.json","data":null}
+[2025-12-12T13:24:18.046Z] {"timestamp":"2025-12-12T18:54:18+05:30","type":"response","message":"Response received","data":{"correct":true,"reason":"","url":"https://tds-llm-analysis.s-anand.net/project2-uv?email=23f2005664%40ds.study.iitm.ac.in&id=67324","delay":null}}
+[2025-12-12T13:24:18.048Z] {"timestamp":"2025-12-12T18:54:18+05:30","type":"success","message":"Answer was correct!","data":null}
+[2025-12-12T13:24:18.056Z] {"timestamp":"2025-12-12T18:54:18+05:30","type":"info","message":"Next quiz: https://tds-llm-analysis.s-anand.net/project2-uv?email=23f2005664%40ds.study.iitm.ac.in&id=67324","data":null}
+[2025-12-12T13:24:19.065Z] {"timestamp":"2025-12-12T18:54:19+05:30","type":"error","message":"Solver is stopped","data":null}

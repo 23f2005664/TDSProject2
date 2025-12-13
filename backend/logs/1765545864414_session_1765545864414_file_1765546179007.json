@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-12-12T18:59:39+05:30",
+  "url": "https://tds-llm-analysis.s-anand.net/project2/gh-tree.json",
+  "filename": "gh-tree.json",
+  "path": "D:\\Random\\TDSPROJ2NEW\\backend\\temp\\3b1af3e0-8feb-4312-8a37-337f642ac66e_gh-tree.json",
+  "type": "json",
+  "size": 172,
+  "hasContent": true,
+  "hasBase64": false,
+  "contentPreview": "{\n  \"owner\": \"sanand0\",\n  \"repo\": \"tools-in-data-science-public\",\n  \"sha\": \"95224924d73f70bf162288742a555fe6d136af2d\",\n  \"pathPrefix\": \"project-1/\",\n  \"extension\": \".md\"\n}\n"
+}

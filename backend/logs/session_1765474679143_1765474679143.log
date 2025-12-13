@@ -1,0 +1,19 @@
+[2025-12-11T17:37:59.144Z] {"timestamp":"2025-12-11T17:37:59.143Z","type":"info","message":"Session log: D:\\Random\\TDSPROJ2NEW\\backend\\logs\\session_1765474679143_1765474679143.log","data":null}
+[2025-12-11T17:37:59.145Z] {"timestamp":"2025-12-11T17:37:59.145Z","type":"info","message":"Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2","data":null}
+[2025-12-11T17:38:00.303Z] {"timestamp":"2025-12-11T17:38:00.302Z","type":"question","message":"Quiz content extracted","data":{"textLength":603,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":0,"imageUrls":0}}
+[2025-12-11T17:38:00.304Z] {"timestamp":"2025-12-11T17:38:00.303Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T17:38:00.311Z] {"timestamp":"2025-12-11T17:38:00.305Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"google/gemini-2.0-flash-exp:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T17:38:06.841Z] {"timestamp":"2025-12-11T17:38:06.831Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T17:38:06.871Z] {"timestamp":"2025-12-11T17:38:06.842Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T17:38:12.624Z] {"timestamp":"2025-12-11T17:38:12.623Z","type":"info","message":"Model changed to: allenai/olmo-3-32b-think:free","data":null}
+[2025-12-11T17:38:12.957Z] {"timestamp":"2025-12-11T17:38:12.952Z","type":"info","message":"Attempt 2 (167s remaining)","data":null}
+[2025-12-11T17:38:12.958Z] {"timestamp":"2025-12-11T17:38:12.958Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"allenai/olmo-3-32b-think:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T17:38:34.156Z] {"timestamp":"2025-12-11T17:38:34.156Z","type":"info","message":"Model changed to: google/gemma-3n-e4b-it:free","data":null}
+[2025-12-11T17:38:50.993Z] {"timestamp":"2025-12-11T17:38:50.993Z","type":"info","message":"Quiz solving stopped","data":null}
+[2025-12-11T17:40:01.764Z] {"timestamp":"2025-12-11T17:40:01.762Z","type":"llm","message":"LLM response received","data":{"contentPreview":"28","model":"allenai/olmo-3-32b-think:free"}}
+[2025-12-11T17:40:01.766Z] {"timestamp":"2025-12-11T17:40:01.765Z","type":"answer","message":"Answer: \"28\"","data":null}
+[2025-12-11T17:40:01.768Z] {"timestamp":"2025-12-11T17:40:01.767Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T17:40:02.645Z] {"timestamp":"2025-12-11T17:40:02.643Z","type":"response","message":"Response received","data":{"correct":true,"reason":"","url":"https://tds-llm-analysis.s-anand.net/project2-uv?email=23f2005664%40ds.study.iitm.ac.in&id=63434","delay":null}}
+[2025-12-11T17:40:02.646Z] {"timestamp":"2025-12-11T17:40:02.646Z","type":"success","message":"Answer was correct!","data":null}
+[2025-12-11T17:40:02.649Z] {"timestamp":"2025-12-11T17:40:02.647Z","type":"info","message":"Next quiz: https://tds-llm-analysis.s-anand.net/project2-uv?email=23f2005664%40ds.study.iitm.ac.in&id=63434","data":null}
+[2025-12-11T17:40:03.674Z] {"timestamp":"2025-12-11T17:40:03.668Z","type":"error","message":"Solver is stopped","data":null}

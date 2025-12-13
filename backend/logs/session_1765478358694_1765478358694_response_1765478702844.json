@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-12T00:15:02+05:30",
+  "submitUrl": "https://tds-llm-analysis.s-anand.net/submit",
+  "status": 200,
+  "headers": {
+    "date": "Thu, 11 Dec 2025 18:45:02 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "vary": "accept-encoding",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=uFhA3rVwXVfNJMkJR%2F0DeYz0UEuF%2FXtmPSQ7Rb7DobFQNLeKCs1r4artnDk3oPwKXJAi7FqgykewvOTtquOa5lT4jPZPKX%2BWArzYYK7oSKhfXfvns0I3ovYvYwk%3D\"}]}",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "server": "cloudflare",
+    "cf-ray": "9ac722facb2fc42a-EWR",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "data": {
+    "correct": false,
+    "reason": "Count .md files under the given prefix, then add (email length mod 2)",
+    "url": null,
+    "delay": 121
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-12T00:10:42+05:30",
+  "submitUrl": "https://tds-llm-analysis.s-anand.net/submit",
+  "status": 200,
+  "headers": {
+    "date": "Thu, 11 Dec 2025 18:40:41 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "vary": "accept-encoding",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=n%2FwD8w%2By3b%2Bs5IxJ5mNsmxcdMQMmAXNUUrCIYjUbOp%2FTru4sD6xJvcaQ77v0gL0SMg8a%2FOBm0jzZpTUR7JpfEb0O1Y6eoETB8%2BUw2ZL7WC9SFOK4lzB%2FSYSFpRs%3D\"}]}",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "server": "cloudflare",
+    "cf-ray": "9ac71c9d9d06c42a-EWR",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "data": {
+    "correct": false,
+    "reason": "Submit the command string: uv http get https://tds-llm-analysis.s-anand.net/project2/uv.json?email=<your email> -H \"Accept: application/json\"",
+    "url": "https://tds-llm-analysis.s-anand.net/project2-git?email=23f2005664%40ds.study.iitm.ac.in&id=63862",
+    "delay": 10
+  }
+}

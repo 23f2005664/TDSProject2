@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-12T18:59:37+05:30",
+  "submitUrl": "https://tds-llm-analysis.s-anand.net/submit",
+  "status": 200,
+  "headers": {
+    "date": "Fri, 12 Dec 2025 13:29:37 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=bAI8W61lv5OfiUE8Qa2KX2j8gtbMrBq6yYHVsJMzrA6r1DNLeiSyvD8lhQJJCYzxeKqEf6Rtz3cRvFZsOWDLj56mUGLEgUbNX2F2OwmjPSZmnR9GTGFG1lc8RDMQOa34dh4i9ocsG1XIecljXWnFPwXuyeJyoH3Br1l9\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "vary": "Accept-Encoding",
+    "server-timing": "cfL4;desc=\"?proto=TCP&rtt=131498&min_rtt=116275&rtt_var=19275&sent=94&recv=58&lost=0&retrans=0&sent_bytes=40080&recv_bytes=12453&delivery_rate=97429&cwnd=256&unsent_bytes=0&cid=1c4f4d8131fe029f&ts=322534&x=0\"",
+    "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "server": "cloudflare",
+    "cf-ray": "9acd92533a49e288-MRS",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "data": {
+    "correct": false,
+    "reason": "Normalized JSON does not match expected output [DELAY: 205s > 180s]",
+    "url": "https://tds-llm-analysis.s-anand.net/project2-gh-tree?email=23f2005664%40ds.study.iitm.ac.in&id=67429",
+    "delay": 205
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-12-12T19:30:43+05:30",
+  "url": "https://tds-llm-analysis.s-anand.net/project2/messy.csv",
+  "filename": "messy.csv",
+  "path": "D:\\Random\\TDSPROJ2NEW\\backend\\temp\\69dd7aec-07aa-4658-8a10-0d75ec2bf0d3_messy.csv",
+  "type": "csv",
+  "size": 83,
+  "hasContent": true,
+  "hasBase64": false,
+  "contentPreview": "ID,Name,Joined,Value\n3,Beta,02/01/24, 10\n1,Alpha,2024-01-30,5\n2,Gamma,1 Feb 2024,7\n"
+}

@@ -1,0 +1,104 @@
+[2025-12-11T17:41:22.084Z] {"timestamp":"2025-12-11T17:41:22.084Z","type":"info","message":"Session log: D:\\Random\\TDSPROJ2NEW\\backend\\logs\\session_1765474882084_1765474882084.log","data":null}
+[2025-12-11T17:41:22.086Z] {"timestamp":"2025-12-11T17:41:22.085Z","type":"info","message":"Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2","data":null}
+[2025-12-11T17:41:22.376Z] {"timestamp":"2025-12-11T17:41:22.375Z","type":"question","message":"Quiz content extracted","data":{"textLength":603,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":0,"imageUrls":0}}
+[2025-12-11T17:41:22.378Z] {"timestamp":"2025-12-11T17:41:22.378Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T17:41:22.381Z] {"timestamp":"2025-12-11T17:41:22.379Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1081,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T17:41:23.291Z] {"timestamp":"2025-12-11T17:41:23.291Z","type":"llm","message":"LLM response received","data":{"contentPreview":"23f2005664@ds.study.iitm.ac.in","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-11T17:41:23.292Z] {"timestamp":"2025-12-11T17:41:23.292Z","type":"answer","message":"Answer: \"23f2005664@ds.study.iitm.ac.in\"","data":null}
+[2025-12-11T17:41:23.293Z] {"timestamp":"2025-12-11T17:41:23.293Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T17:41:24.144Z] {"timestamp":"2025-12-11T17:41:24.142Z","type":"response","message":"Response received","data":{"correct":true,"reason":"","url":"https://tds-llm-analysis.s-anand.net/project2-uv?email=23f2005664%40ds.study.iitm.ac.in&id=63457","delay":null}}
+[2025-12-11T17:41:24.147Z] {"timestamp":"2025-12-11T17:41:24.145Z","type":"success","message":"Answer was correct!","data":null}
+[2025-12-11T17:41:24.149Z] {"timestamp":"2025-12-11T17:41:24.148Z","type":"info","message":"Next quiz: https://tds-llm-analysis.s-anand.net/project2-uv?email=23f2005664%40ds.study.iitm.ac.in&id=63457","data":null}
+[2025-12-11T17:41:25.167Z] {"timestamp":"2025-12-11T17:41:25.166Z","type":"info","message":"Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2-uv?email=23f2005664%40ds.study.iitm.ac.in&id=63457","data":null}
+[2025-12-11T17:41:25.507Z] {"timestamp":"2025-12-11T17:41:25.507Z","type":"question","message":"Quiz content extracted","data":{"textLength":372,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":1,"imageUrls":0}}
+[2025-12-11T17:41:25.512Z] {"timestamp":"2025-12-11T17:41:25.509Z","type":"info","message":"Processing: https://tds-llm-analysis.s-anand.net/project2/uv.json","data":null}
+[2025-12-11T17:41:25.832Z] {"timestamp":"2025-12-11T17:41:25.832Z","type":"file","message":"Downloaded: uv.json","data":{"type":"json","path":"D:\\Random\\TDSPROJ2NEW\\backend\\temp\\b404dabe-d89c-4db5-8b8d-880d24b44f31_uv.json","hasContent":true}}
+[2025-12-11T17:41:25.833Z] {"timestamp":"2025-12-11T17:41:25.833Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T17:41:25.834Z] {"timestamp":"2025-12-11T17:41:25.834Z","type":"llm","message":"Calling LLM...","data":{"promptLength":946,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T17:41:27.876Z] {"timestamp":"2025-12-11T17:41:27.875Z","type":"llm","message":"LLM response received","data":{"contentPreview":"POST /project2-uv\nBODY {\"command\":\"uv http get https://dsstudy.duckdns.org/project2/uv.json?email=23f2005664@ds.study.iitm.ac.in -H \\\"Accept: application/json\\\"\"}","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-11T17:41:27.878Z] {"timestamp":"2025-12-11T17:41:27.876Z","type":"answer","message":"Answer: \"POST /project2-uv\\nBODY {\\\"command\\\":\\\"uv http get https://dsstudy.duckdns.org/project2/uv.json?email=23f2005664@ds.study.iitm.ac.in -H \\\\\\\"Accept: application/json\\\\\\\"\\\"}\"","data":null}
+[2025-12-11T17:41:27.879Z] {"timestamp":"2025-12-11T17:41:27.879Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T17:41:29.000Z] {"timestamp":"2025-12-11T17:41:28.999Z","type":"response","message":"Response received","data":{"correct":false,"reason":"Submit the command string: uv http get https://tds-llm-analysis.s-anand.net/project2/uv.json?email=<your email> -H \"Accept: application/json\"","url":"https://tds-llm-analysis.s-anand.net/project2-git?email=23f2005664%40ds.study.iitm.ac.in&id=63460","delay":4}}
+[2025-12-11T17:41:29.002Z] {"timestamp":"2025-12-11T17:41:29.001Z","type":"error","message":"Wrong answer: Submit the command string: uv http get https://tds-llm-analysis.s-anand.net/project2/uv.json?email=<your email> -H \"Accept: application/json\"","data":null}
+[2025-12-11T17:41:31.015Z] {"timestamp":"2025-12-11T17:41:31.015Z","type":"info","message":"Attempt 2 (174s remaining)","data":null}
+[2025-12-11T17:41:31.023Z] {"timestamp":"2025-12-11T17:41:31.022Z","type":"llm","message":"Calling LLM...","data":{"promptLength":1237,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":1}}
+[2025-12-11T17:41:34.635Z] {"timestamp":"2025-12-11T17:41:34.634Z","type":"llm","message":"LLM response received","data":{"contentPreview":"uv http get https://tds-llm-analysis.s-anand.net/project2/uv.json?email=23f2005664@ds.study.iitm.ac.in -H \"Accept: application/json\"","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-11T17:41:34.639Z] {"timestamp":"2025-12-11T17:41:34.636Z","type":"answer","message":"Answer: \"uv http get https://tds-llm-analysis.s-anand.net/project2/uv.json?email=23f2005664@ds.study.iitm.ac.in -H \\\"Accept: application/json\"","data":null}
+[2025-12-11T17:41:34.641Z] {"timestamp":"2025-12-11T17:41:34.641Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T17:41:35.806Z] {"timestamp":"2025-12-11T17:41:35.805Z","type":"response","message":"Response received","data":{"correct":true,"reason":"","url":"https://tds-llm-analysis.s-anand.net/project2-git?email=23f2005664%40ds.study.iitm.ac.in&id=63465","delay":11}}
+[2025-12-11T17:41:35.808Z] {"timestamp":"2025-12-11T17:41:35.807Z","type":"success","message":"Answer was correct!","data":null}
+[2025-12-11T17:41:35.814Z] {"timestamp":"2025-12-11T17:41:35.810Z","type":"info","message":"Next quiz: https://tds-llm-analysis.s-anand.net/project2-git?email=23f2005664%40ds.study.iitm.ac.in&id=63465","data":null}
+[2025-12-11T17:41:36.826Z] {"timestamp":"2025-12-11T17:41:36.826Z","type":"info","message":"Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2-git?email=23f2005664%40ds.study.iitm.ac.in&id=63465","data":null}
+[2025-12-11T17:41:36.946Z] {"timestamp":"2025-12-11T17:41:36.945Z","type":"question","message":"Quiz content extracted","data":{"textLength":325,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":0,"imageUrls":0}}
+[2025-12-11T17:41:36.947Z] {"timestamp":"2025-12-11T17:41:36.946Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T17:41:36.949Z] {"timestamp":"2025-12-11T17:41:36.947Z","type":"llm","message":"Calling LLM...","data":{"promptLength":803,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T17:41:37.935Z] {"timestamp":"2025-12-11T17:41:37.934Z","type":"llm","message":"LLM response received","data":{"contentPreview":"git add env.sample\ngit commit -m \"chore: keep env sample\"","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-11T17:41:37.936Z] {"timestamp":"2025-12-11T17:41:37.935Z","type":"answer","message":"Answer: \"git add env.sample\\ngit commit -m \\\"chore: keep env sample\"","data":null}
+[2025-12-11T17:41:37.941Z] {"timestamp":"2025-12-11T17:41:37.941Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T17:41:38.125Z] {"timestamp":"2025-12-11T17:41:38.125Z","type":"response","message":"Response received","data":{"correct":true,"reason":"","url":"https://tds-llm-analysis.s-anand.net/project2-md?email=23f2005664%40ds.study.iitm.ac.in&id=63468","delay":3}}
+[2025-12-11T17:41:38.126Z] {"timestamp":"2025-12-11T17:41:38.126Z","type":"success","message":"Answer was correct!","data":null}
+[2025-12-11T17:41:38.127Z] {"timestamp":"2025-12-11T17:41:38.127Z","type":"info","message":"Next quiz: https://tds-llm-analysis.s-anand.net/project2-md?email=23f2005664%40ds.study.iitm.ac.in&id=63468","data":null}
+[2025-12-11T17:41:39.146Z] {"timestamp":"2025-12-11T17:41:39.145Z","type":"info","message":"Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2-md?email=23f2005664%40ds.study.iitm.ac.in&id=63468","data":null}
+[2025-12-11T17:41:39.249Z] {"timestamp":"2025-12-11T17:41:39.249Z","type":"question","message":"Quiz content extracted","data":{"textLength":304,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":0,"imageUrls":0}}
+[2025-12-11T17:41:39.250Z] {"timestamp":"2025-12-11T17:41:39.250Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T17:41:39.251Z] {"timestamp":"2025-12-11T17:41:39.251Z","type":"llm","message":"Calling LLM...","data":{"promptLength":782,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T17:41:40.130Z] {"timestamp":"2025-12-11T17:41:40.129Z","type":"llm","message":"LLM response received","data":{"contentPreview":"/project2/data-preparation.md","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-11T17:41:40.132Z] {"timestamp":"2025-12-11T17:41:40.131Z","type":"answer","message":"Answer: \"/project2/data-preparation.md\"","data":null}
+[2025-12-11T17:41:40.134Z] {"timestamp":"2025-12-11T17:41:40.134Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T17:41:40.305Z] {"timestamp":"2025-12-11T17:41:40.305Z","type":"response","message":"Response received","data":{"correct":true,"reason":"","url":"https://tds-llm-analysis.s-anand.net/project2-audio-passphrase?email=23f2005664%40ds.study.iitm.ac.in&id=63470","delay":2}}
+[2025-12-11T17:41:40.306Z] {"timestamp":"2025-12-11T17:41:40.306Z","type":"success","message":"Answer was correct!","data":null}
+[2025-12-11T17:41:40.307Z] {"timestamp":"2025-12-11T17:41:40.307Z","type":"info","message":"Next quiz: https://tds-llm-analysis.s-anand.net/project2-audio-passphrase?email=23f2005664%40ds.study.iitm.ac.in&id=63470","data":null}
+[2025-12-11T17:41:41.301Z] {"timestamp":"2025-12-11T17:41:41.301Z","type":"info","message":"Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2-audio-passphrase?email=23f2005664%40ds.study.iitm.ac.in&id=63470","data":null}
+[2025-12-11T17:41:41.418Z] {"timestamp":"2025-12-11T17:41:41.418Z","type":"question","message":"Quiz content extracted","data":{"textLength":324,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":1,"imageUrls":0}}
+[2025-12-11T17:41:41.420Z] {"timestamp":"2025-12-11T17:41:41.419Z","type":"info","message":"Processing: https://tds-llm-analysis.s-anand.net/project2/audio-passphrase.opus","data":null}
+[2025-12-11T17:41:45.706Z] {"timestamp":"2025-12-11T17:41:45.706Z","type":"file","message":"Downloaded: audio-passphrase.opus","data":{"type":"audio","path":"D:\\Random\\TDSPROJ2NEW\\backend\\temp\\946d945b-4e79-4a03-b67d-522895b06db9_audio-passphrase.opus","hasContent":true}}
+[2025-12-11T17:41:45.709Z] {"timestamp":"2025-12-11T17:41:45.707Z","type":"info","message":"Attempt 1 (176s remaining)","data":null}
+[2025-12-11T17:41:45.711Z] {"timestamp":"2025-12-11T17:41:45.710Z","type":"llm","message":"Calling LLM...","data":{"promptLength":886,"model":"kwaipilot/kat-coder-pro:free","hasImages":false,"previousReasons":0}}
+[2025-12-11T17:41:46.969Z] {"timestamp":"2025-12-11T17:41:46.968Z","type":"llm","message":"LLM response received","data":{"contentPreview":"hushed parrot 219","model":"kwaipilot/kat-coder-pro:free"}}
+[2025-12-11T17:41:46.970Z] {"timestamp":"2025-12-11T17:41:46.969Z","type":"answer","message":"Answer: \"hushed parrot 219\"","data":null}
+[2025-12-11T17:41:46.972Z] {"timestamp":"2025-12-11T17:41:46.972Z","type":"submit","message":"Submitting to https://tds-llm-analysis.s-anand.net/submit","data":null}
+[2025-12-11T17:41:56.094Z] {"timestamp":"2025-12-11T17:41:56.093Z","type":"response","message":"Response received","data":{"correct":true,"reason":"","url":"https://tds-llm-analysis.s-anand.net/project2-heatmap?email=23f2005664%40ds.study.iitm.ac.in&id=63474","delay":6}}
+[2025-12-11T17:41:56.096Z] {"timestamp":"2025-12-11T17:41:56.095Z","type":"success","message":"Answer was correct!","data":null}
+[2025-12-11T17:41:56.098Z] {"timestamp":"2025-12-11T17:41:56.096Z","type":"info","message":"Next quiz: https://tds-llm-analysis.s-anand.net/project2-heatmap?email=23f2005664%40ds.study.iitm.ac.in&id=63474","data":null}
+[2025-12-11T17:41:57.112Z] {"timestamp":"2025-12-11T17:41:57.111Z","type":"info","message":"Fetching quiz page: https://tds-llm-analysis.s-anand.net/project2-heatmap?email=23f2005664%40ds.study.iitm.ac.in&id=63474","data":null}
+[2025-12-11T17:41:57.241Z] {"timestamp":"2025-12-11T17:41:57.240Z","type":"question","message":"Quiz content extracted","data":{"textLength":267,"submitUrl":"https://tds-llm-analysis.s-anand.net/submit","fileLinks":1,"imageUrls":0}}
+[2025-12-11T17:41:57.242Z] {"timestamp":"2025-12-11T17:41:57.242Z","type":"info","message":"Processing: https://tds-llm-analysis.s-anand.net/project2/heatmap.png","data":null}
+[2025-12-11T17:41:57.380Z] {"timestamp":"2025-12-11T17:41:57.379Z","type":"file","message":"Downloaded: heatmap.png","data":{"type":"image","path":"D:\\Random\\TDSPROJ2NEW\\backend\\temp\\205371d0-52dc-485a-a95c-1dc0cea9da60_heatmap.png","hasContent":false}}
+[2025-12-11T17:41:57.381Z] {"timestamp":"2025-12-11T17:41:57.381Z","type":"info","message":"Attempt 1 (180s remaining)","data":null}
+[2025-12-11T17:41:57.382Z] {"timestamp":"2025-12-11T17:41:57.382Z","type":"llm","message":"Calling LLM...","data":{"promptLength":770,"model":"kwaipilot/kat-coder-pro:free","hasImages":true,"previousReasons":0}}
+[2025-12-11T17:41:57.792Z] {"timestamp":"2025-12-11T17:41:57.792Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T17:41:57.793Z] {"timestamp":"2025-12-11T17:41:57.793Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T17:44:28.426Z] {"timestamp":"2025-12-11T17:44:28.425Z","type":"info","message":"Model changed to: allenai/olmo-3-32b-think:free","data":null}
+[2025-12-11T17:44:29.179Z] {"timestamp":"2025-12-11T17:44:29.178Z","type":"info","message":"Attempt 2 (28s remaining)","data":null}
+[2025-12-11T17:44:29.181Z] {"timestamp":"2025-12-11T17:44:29.180Z","type":"llm","message":"Calling LLM...","data":{"promptLength":770,"model":"allenai/olmo-3-32b-think:free","hasImages":true,"previousReasons":0}}
+[2025-12-11T17:44:29.265Z] {"timestamp":"2025-12-11T17:44:29.264Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T17:44:29.267Z] {"timestamp":"2025-12-11T17:44:29.265Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T17:44:34.433Z] {"timestamp":"2025-12-11T17:44:34.433Z","type":"info","message":"Model changed to: tngtech/deepseek-r1t-chimera:free","data":null}
+[2025-12-11T17:44:35.333Z] {"timestamp":"2025-12-11T17:44:35.332Z","type":"info","message":"Attempt 3 (22s remaining)","data":null}
+[2025-12-11T17:44:35.335Z] {"timestamp":"2025-12-11T17:44:35.334Z","type":"llm","message":"Calling LLM...","data":{"promptLength":770,"model":"tngtech/deepseek-r1t-chimera:free","hasImages":true,"previousReasons":0}}
+[2025-12-11T17:44:35.400Z] {"timestamp":"2025-12-11T17:44:35.400Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T17:44:35.401Z] {"timestamp":"2025-12-11T17:44:35.401Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T17:44:41.434Z] {"timestamp":"2025-12-11T17:44:41.434Z","type":"info","message":"Model changed to: tngtech/deepseek-r1t2-chimera:free","data":null}
+[2025-12-11T17:44:41.469Z] {"timestamp":"2025-12-11T17:44:41.460Z","type":"info","message":"Attempt 4 (16s remaining)","data":null}
+[2025-12-11T17:44:41.478Z] {"timestamp":"2025-12-11T17:44:41.474Z","type":"llm","message":"Calling LLM...","data":{"promptLength":770,"model":"tngtech/deepseek-r1t2-chimera:free","hasImages":true,"previousReasons":0}}
+[2025-12-11T17:44:41.552Z] {"timestamp":"2025-12-11T17:44:41.552Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T17:44:41.553Z] {"timestamp":"2025-12-11T17:44:41.553Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T17:44:46.420Z] {"timestamp":"2025-12-11T17:44:46.419Z","type":"info","message":"Model changed to: arcee-ai/trinity-mini:free","data":null}
+[2025-12-11T17:44:46.600Z] {"timestamp":"2025-12-11T17:44:46.598Z","type":"info","message":"Attempt 5 (11s remaining)","data":null}
+[2025-12-11T17:44:46.602Z] {"timestamp":"2025-12-11T17:44:46.600Z","type":"llm","message":"Calling LLM...","data":{"promptLength":770,"model":"arcee-ai/trinity-mini:free","hasImages":true,"previousReasons":0}}
+[2025-12-11T17:44:47.004Z] {"timestamp":"2025-12-11T17:44:47.004Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T17:44:47.015Z] {"timestamp":"2025-12-11T17:44:47.005Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T17:44:50.900Z] {"timestamp":"2025-12-11T17:44:50.900Z","type":"info","message":"Model changed to: amazon/nova-2-lite-v1:free","data":null}
+[2025-12-11T17:44:51.066Z] {"timestamp":"2025-12-11T17:44:51.064Z","type":"info","message":"Attempt 6 (6s remaining)","data":null}
+[2025-12-11T17:44:51.068Z] {"timestamp":"2025-12-11T17:44:51.067Z","type":"llm","message":"Calling LLM...","data":{"promptLength":770,"model":"amazon/nova-2-lite-v1:free","hasImages":true,"previousReasons":0}}
+[2025-12-11T17:44:51.072Z] {"timestamp":"2025-12-11T17:44:51.072Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T17:44:51.074Z] {"timestamp":"2025-12-11T17:44:51.073Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T17:44:55.445Z] {"timestamp":"2025-12-11T17:44:55.443Z","type":"info","message":"Model changed to: nvidia/nemotron-nano-9b-v2:free","data":null}
+[2025-12-11T17:44:56.106Z] {"timestamp":"2025-12-11T17:44:56.105Z","type":"info","message":"Attempt 7 (1s remaining)","data":null}
+[2025-12-11T17:44:56.107Z] {"timestamp":"2025-12-11T17:44:56.107Z","type":"llm","message":"Calling LLM...","data":{"promptLength":770,"model":"nvidia/nemotron-nano-9b-v2:free","hasImages":true,"previousReasons":0}}
+[2025-12-11T17:44:56.171Z] {"timestamp":"2025-12-11T17:44:56.170Z","type":"error","message":"LLM call failed: All models are rate limited. Please select a model manually or wait.","data":null}
+[2025-12-11T17:44:56.172Z] {"timestamp":"2025-12-11T17:44:56.171Z","type":"error","message":"All models are rate limited. Please select a model manually.","data":null}
+[2025-12-11T17:45:00.802Z] {"timestamp":"2025-12-11T17:45:00.802Z","type":"info","message":"Model changed to: nvidia/nemotron-nano-12b-v2-vl:free","data":null}
+[2025-12-11T17:45:01.218Z] {"timestamp":"2025-12-11T17:45:01.216Z","type":"info","message":"Attempt 8 (-4s remaining)","data":null}
+[2025-12-11T17:45:01.220Z] {"timestamp":"2025-12-11T17:45:01.219Z","type":"llm","message":"Calling LLM...","data":{"promptLength":770,"model":"nvidia/nemotron-nano-12b-v2-vl:free","hasImages":true,"previousReasons":0}}
+[2025-12-11T17:45:34.219Z] {"timestamp":"2025-12-11T17:45:34.219Z","type":"info","message":"Quiz solving stopped","data":null}

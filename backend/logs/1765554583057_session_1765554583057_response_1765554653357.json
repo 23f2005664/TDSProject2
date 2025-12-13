@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-12T21:20:53+05:30",
+  "submitUrl": "https://tds-llm-analysis.s-anand.net/submit",
+  "status": 200,
+  "headers": {
+    "date": "Fri, 12 Dec 2025 15:50:52 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "vary": "accept-encoding",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=tZnsnAT2NTsxhSD8Z4VeBrNaWrn3oYgPbxC%2Bzh1ahto9t2fGG3Gg4LNy4s%2BsMuJ6%2B0dEhhwfvAQ83lwqaXlAngs6B4y4Wb%2FTT%2BVqXau2Zjs4FUnD2wShgqcl\"}]}",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "server": "cloudflare",
+    "cf-ray": "9ace613f1d38c0a0-MRS",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "data": {
+    "correct": false,
+    "reason": "Need git add env.sample then git commit -m \"chore: keep env sample\"",
+    "url": "https://tds-llm-analysis.s-anand.net/project2-md?email=23f2005664%40ds.study.iitm.ac.in&id=69768",
+    "delay": 9
+  }
+}
